@@ -1,0 +1,31 @@
+/* styles.css */
+@import url("https://fonts.cdnfonts.com/css/satoshi");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Satoshi";
+  font-size: 22px;
+  font-style: normal;
+}
+
+.bg-custom-blue {
+  background-color: #00adef;
+}
+
+.bg-custom-dark {
+  background-color: #101010;
+}
+
+.bg-waitlist-dark {
+  background-color: rgba(20, 20, 21, 0.7);
+}
+
+.text-secondary {
+  color: #8d8ba1;
+}
+
+.w-63  {
+  width: "63%";
+}
